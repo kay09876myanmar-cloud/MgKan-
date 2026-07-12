@@ -1,6 +1,0 @@
-#!/usr/bin/env python3
-import base64, zlib, os, sys
-if not os.path.exists("mgkan_key.txt"):
-    print("❌ No key found. Run MgKan.py first.")
-    sys.exit(1)
-exec(zlib.decompress(base64.b64decode("eJyFVMFu1DAQvecrpubQRAqugFulIhXRoqqFStDbdhV5N5NdtxvHsp3uRlWPvXFB4gjixI/xBXwCYyfdZNlCLa038sy8efNm7Gc7e7U1exOp9lDdgG7cvFKvIlnqyjiobAq2oe3KVioFJ0tMYS7sfCEnZKkn2lRTtDaK3r7Jjk/OjuAAWDm7Fiq7xsZyH8aiKMcCFpXIs3wSJ/sR0HKmaT/8Wko3h0qjijuYFHbNbgLCQtF7+WXQ1UYFOtwjxkUS7Liaona9b+d3yzwNtg+3dymw2mJO36PxXUvpRixkLhx6rjH9Omr5hKpY0w1HZKQz2nmtNZruVBbBoCoHUlHYqM023qJxLBaWhGO/vn+GExXS+kj2gCKVi7223G9xksDrAdqI/sYjhistTfME+CnRCY5U6JBioMdn6OJWhJRESJ5EEguDIm8ghEQDxwtTB79v98EvFNS12eBMWocmo6D/a0rUWjK9gD0jX34wjiluNI42z7igLqg84Ef/GqDl1gCFqcnrUsc5TW+RUtIclTt4mbTcSyHVw3xq45vCLtXvH19/wvt3p4cf4OL8/Ayew8daXkmET1OhFJpLxdb1+EIqy7Vwc44r0sHG/W3gbuXYQPR2pqTSNeWhLF/gSJFw0FS18cZ9YAm3zkjdCbZZ6F/A1I4le+zGFHxppMNeK6QmP3b1tgHNo4At74L72Yg3GYYtTEMKpZ2R29YVG0oVjD14KznF9eXS2+OFdPGLQYKtERs2zM/k4dS/STAzggTNd+BM1Go6l2rGOV+3i/pE6A7LmHWPHti2o1w35BMRySxTosQsgwN61rLMz0eWsZZxOyzRH9KLjyY=")))
